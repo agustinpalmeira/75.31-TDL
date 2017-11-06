@@ -32,11 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="literals.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="literals.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/literals.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataTypes.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dataTypes.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/lists_vectors.clj" />
         <option value="$PROJECT_DIR$/src/BigInt and BigDecimal literals.clj" />
         <option value="$PROJECT_DIR$/src/literals.clj" />
+        <option value="$PROJECT_DIR$/src/dataTypes.clj" />
       </list>
     </option>
   </component>
@@ -142,10 +153,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application..literals">
+  <component name="RunManager" selected="Clojure Application..dataTypes">
     <configuration name=".BigInt" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="Clojure-Examples" />
       <setting name="path" value="$PROJECT_DIR$/src/BigInt and BigDecimal literals.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src" />
+    </configuration>
+    <configuration name=".dataTypes" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="Clojure-Examples" />
+      <setting name="path" value="$PROJECT_DIR$/src/dataTypes.clj" />
       <setting name="namespace" value="" />
       <setting name="useLein" value="false" />
       <setting name="profiles" value="" />
@@ -244,16 +265,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="clojure.examples.hello" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="Clojure-Examples" />
-      <setting name="path" value="$PROJECT_DIR$/src/helloWorld" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src" />
-    </configuration>
     <configuration name="helloWorld" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="Clojure-Examples" />
       <setting name="path" value="$PROJECT_DIR$/src/helloWorld" />
@@ -276,18 +287,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Clojure Application.helloWorld" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Application.clojure.examples.hello" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Application.lists_vectors" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Application..BigInt" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Application..literals" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Application.lists_vectors" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Application..BigInt" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Application..literals" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Application..dataTypes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Clojure Application..literals" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Application..BigInt" />
-        <item index="2" class="java.lang.String" itemvalue="Clojure Application.lists_vectors" />
-        <item index="3" class="java.lang.String" itemvalue="Clojure Application.helloWorld" />
-        <item index="4" class="java.lang.String" itemvalue="Clojure Application.clojure.examples.hello" />
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application..dataTypes" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Application..literals" />
+        <item index="2" class="java.lang.String" itemvalue="Clojure Application..BigInt" />
+        <item index="3" class="java.lang.String" itemvalue="Clojure Application.lists_vectors" />
+        <item index="4" class="java.lang.String" itemvalue="Clojure Application.helloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +332,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -407,6 +418,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigInt and BigDecimal literals.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/literals.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/helloWorld">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -423,18 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BigInt and BigDecimal literals.clj">
+    <entry file="file://$PROJECT_DIR$/src/dataTypes.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/literals.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="309">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
