@@ -2,7 +2,7 @@
   (:gen-class))
 
 (defn hello-world [username]
-  (println (format "Hello, %s" username)))
+  (println (format "Hello %s" username)))
 
   (hello-world "world")
 
