@@ -1,7 +1,7 @@
-(ns interopBasic)
+(ns interopBasic
 
 ;;Hola Mundo
-(import '(javax.swing JOptionPane))
+(:import [javax.swing JOptionPane]))
 (JOptionPane/showMessageDialog nil, (str "Hola Mundo"))
 
 ;;Sistema Operativo

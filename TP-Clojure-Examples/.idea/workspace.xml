@@ -95,8 +95,8 @@
       <file leaf-file-name="interopExamples.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interopExamples.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/macros.clj" />
         <option value="$PROJECT_DIR$/src/examples.clj" />
         <option value="$PROJECT_DIR$/src/interop.clj" />
-        <option value="$PROJECT_DIR$/src/interopBasic.clj" />
         <option value="$PROJECT_DIR$/src/interopExamples.clj" />
+        <option value="$PROJECT_DIR$/src/interopBasic.clj" />
       </list>
     </option>
   </component>
@@ -753,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interopExamples.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dataTypes.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -805,6 +797,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interopExamples.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
       </provider>
