@@ -12,16 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="helloWorld" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helloWorld">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lists_vectors.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lists_vectors.clj">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interop.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interop.clj">
+      <file leaf-file-name="interopBasic.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interopBasic.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interopExamples.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interopExamples.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,6 +143,8 @@
         <option value="$PROJECT_DIR$/src/macros.clj" />
         <option value="$PROJECT_DIR$/src/examples.clj" />
         <option value="$PROJECT_DIR$/src/interop.clj" />
+        <option value="$PROJECT_DIR$/src/interopBasic.clj" />
+        <option value="$PROJECT_DIR$/src/interopExamples.clj" />
       </list>
     </option>
   </component>
@@ -221,20 +223,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.interop">
+  <component name="RunManager" selected="Clojure Application.interopExamples">
     <configuration name=".examples" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="Clojure-Examples" />
       <setting name="path" value="$PROJECT_DIR$/src/examples.clj" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src" />
-    </configuration>
-    <configuration name=".literals" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="Clojure-Examples" />
-      <setting name="path" value="$PROJECT_DIR$/src/literals.clj" />
       <setting name="namespace" value="" />
       <setting name="useLein" value="false" />
       <setting name="profiles" value="" />
@@ -343,6 +335,16 @@
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src" />
     </configuration>
+    <configuration name="interopExamples" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="Clojure-Examples" />
+      <setting name="path" value="$PROJECT_DIR$/src/interopExamples.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src" />
+    </configuration>
     <configuration name="variables" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="Clojure-Examples" />
       <setting name="path" value="$PROJECT_DIR$/src/variables.clj" />
@@ -354,19 +356,19 @@
       <setting name="workDir" value="$PROJECT_DIR$/src" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Clojure Application..literals" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Application.variables" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Application..macros" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Application..examples" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Application.interop" />
+      <item index="0" class="java.lang.String" itemvalue="Clojure Application.variables" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Application..macros" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Application..examples" />
+      <item index="3" class="java.lang.String" itemvalue="Clojure Application.interop" />
+      <item index="4" class="java.lang.String" itemvalue="Clojure Application.interopExamples" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Clojure Application.interop" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Application..examples" />
-        <item index="2" class="java.lang.String" itemvalue="Clojure Application..macros" />
-        <item index="3" class="java.lang.String" itemvalue="Clojure Application.variables" />
-        <item index="4" class="java.lang.String" itemvalue="Clojure Application..literals" />
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application.interopExamples" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Application.interop" />
+        <item index="2" class="java.lang.String" itemvalue="Clojure Application..examples" />
+        <item index="3" class="java.lang.String" itemvalue="Clojure Application..macros" />
+        <item index="4" class="java.lang.String" itemvalue="Clojure Application.variables" />
       </list>
     </recent_temporary>
   </component>
@@ -426,18 +428,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dataTypes.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="3" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/variables.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -815,10 +811,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interop.clj">
+    <entry file="file://$PROJECT_DIR$/src/interopBasic.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interopExamples.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
