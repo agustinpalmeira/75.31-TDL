@@ -9,8 +9,8 @@
 
 (let [f (File. ".")] (println (.getAbsolutePath f)))
 
-(str File/separator "foo" File/separator "bar")
-(Math/sqrt 256)
+(println (str File/separator "foo"  File/separator "bar"))
+(println (Math/sqrt 256))
 
 (.getBytes (.getAbsolutePath (File. ".")))
 (.. (File. ".") getAbsolutePath getBytes)
